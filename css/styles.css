@@ -117,10 +117,11 @@ padding: 120px 0;
 .section-one-ul {
     display: flex;
     gap: 24px;
+    padding-left: 0;
 }
 .section-one-li{
 width: calc((100% - 72px) / 4);
-padding-left: 0;
+
 }
 /* section 2 */
 .section-two{
@@ -209,10 +210,11 @@ border-top: none;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+    padding-left: 0;
 }
 .section-four-li{
 width: calc((100% - 48px) / 3);
-padding-left: 0;
+
 }
 .section-four-p{
     font-size: 16px;
