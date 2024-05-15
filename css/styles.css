@@ -4,6 +4,7 @@ body{
     background-color: #ffffff;
 }
 .logo{
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -11,11 +12,15 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
-    
+    padding: 24px;
+    margin: 0;
 }
 .logo-span{
     color: #2e2f42;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
 }
 .studio-link{
     font-weight: 500;
@@ -62,6 +67,9 @@ body{
     background-color: #4D5AE5;
     cursor: pointer;
     margin-top: 48px;
+    width: 169px;
+    height: 56px;
+    border-radius: 5%;
 }
 .title-button:hover{
     background-color: #404BBF;
@@ -133,7 +141,11 @@ margin: 0;
     color: #2e2f42;
 }
 .four-li{
-    border: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    margin-top: 0;
+    
 }
 
 .section-four-p{
@@ -173,7 +185,7 @@ ul{
     padding-top: 100px;
     padding-left: 156px;
 }
-h1,h2.h3,h4,h5,h6,p{
+h1,h2.h3,h4,h5,h6,p,ul{
     margin: 0;
 }
 img{
@@ -196,11 +208,14 @@ img{
 .page-header-ul{
     display: flex;
     gap: 40px;
-    margin: 24px 332px 24px 76px;
+    padding: 24px;
+    padding-left: 76px;
+    padding-right: 332px;
 }
 .header-address-ul{
     display: flex;
     gap: 40px;
+    padding: 24px;
 }
 .page-header{
     height: 72px;
@@ -217,7 +232,7 @@ flex-wrap: wrap;
 align-content: center;
 gap: 24px;
 justify-content: center;
-padding-left: 156px;
+padding:120px 156px;
 text-align: center;
 }
 .section-four-ul{
