@@ -12,7 +12,6 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding: 24px;
     margin-right: 76px
 }
 .logo-span{
@@ -22,6 +21,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: row;
+    margin-right: auto;
 }
 .studio-link{
     padding: 24px 0;
@@ -56,6 +56,7 @@ body{
 .header-address-ul {
     display: flex;
     gap: 40px;
+    padding-left: 0;
 
 }
 
@@ -102,6 +103,8 @@ body{
     border: none;
     height: 56px;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .title-button:hover{
     background-color: #404BBF;
@@ -197,6 +200,8 @@ padding: 120px 0;
     padding-bottom: 120px;
 }
 .section-four-h{
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
     margin-bottom: 8px;
 }
 .four-li{
@@ -274,10 +279,9 @@ img{
 .container{
     
     width: 1158px;
-    flex-direction: row;
-    justify-content:center;
     padding: 0 15px;
     margin: 0 auto;
+    align-items: center;
   
 }
 
