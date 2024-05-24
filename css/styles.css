@@ -200,6 +200,8 @@ padding: 120px 0;
     padding-bottom: 120px;
 }
 .section-four-h{
+    font-weight: 500;
+    font-size: 20px;
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
     margin-bottom: 8px;
@@ -268,7 +270,8 @@ ul{
     max-width: 264px;
 }
 
-h1,h2.h3,h4,h5,h6,p,ul{
+h1,h2,h3,h4,h5,h6,p,ul{
+
     margin: 0;
 }
 img{
